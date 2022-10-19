@@ -6,7 +6,7 @@
 /*   By: segan <segan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 14:39:33 by segan             #+#    #+#             */
-/*   Updated: 2022/10/18 22:28:53 by segan            ###   ########.fr       */
+/*   Updated: 2022/10/19 18:27:27 by segan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	send_message(pid_t pid, int message)
 				return (-1);
 		}
 		i++;
-		usleep(100);
+		usleep(30);
 	}
 	return (1);
 }

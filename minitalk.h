@@ -6,7 +6,7 @@
 /*   By: segan <segan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 16:11:57 by segan             #+#    #+#             */
-/*   Updated: 2022/10/18 22:13:45 by segan            ###   ########.fr       */
+/*   Updated: 2022/10/19 18:31:06 by segan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <signal.h>
-# include <stdlib.h>
 
 typedef struct s_buff
 {

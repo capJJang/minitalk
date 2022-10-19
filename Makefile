@@ -6,17 +6,17 @@
 #    By: segan <segan@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/17 16:12:00 by segan             #+#    #+#              #
-#    Updated: 2022/10/18 22:29:43 by segan            ###   ########.fr        #
+#    Updated: 2022/10/19 18:15:55 by segan            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = server.out
+NAME = server
 
-NAME1 = client.out
+NAME1 = client
 
 CC = cc
 
-CFLAGS = -Wall -Wextra -Werror -g -o
+CFLAGS = -Wall -Wextra -Werror -o
 
 SERVER_SRCS = server.c
 
@@ -37,12 +37,9 @@ $(NAME1) : $(CLIENT_SRCS)
 
 clean :
 	make clean -C ft_printf
-	rm -f $(NAME)
-	rm -f $(NAME1)
 
 fclean :
 	make fclean -C ft_printf
-	make clean
 	rm -f $(NAME)
 	rm -f $(NAME1)
 
